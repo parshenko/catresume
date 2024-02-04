@@ -1,1 +1,1 @@
-This is my learning board and some test files that i practis on
+This is my learning board and some test files that I practice on 
