@@ -6,10 +6,11 @@
     <meta name="keywards" content="Ricardo, Ricardo Morre, cv, Resume">
     <meta name="description" content="Это сайт резюме Рикардо Моррэ">
     <title>My Resume</title>
+    <link rel="stylesheet" href="effects.css">
 </head>
 <body>
     <header>
-          <h1>Ricardo Morre - my resume</h1>  
+          <h1>Ricardo Morre - Это все обо мне!</h1>  
     </header>
     
     <img src="photo_rico.png" width = "150", alt="Rico's photo">
@@ -17,15 +18,16 @@
     
     <hr>
 
-    <section>
-        <article>
-            <p><strong><em>Пару слов обо мне:</em></strong> <br>Я - домашний кот, и я люблю спать в уютных местах, таких как мягкие подушки или теплые одеяла. Я очень любопытный и исследую каждый уголок в доме. Я люблю играть с мячиками, веревочками и другими игрушками. </p>
+    <section class="textme" id="block">
+        <article id="atext">
+            <h2 class="aboutme">Пару слов обо мне</h2>
+            <p><strong1><em>Пару слов обо мне:</em></strong1> <br>Я - домашний кот, и я люблю спать в уютных местах, таких как мягкие подушки или теплые одеяла. Я очень любопытный и исследую каждый уголок в доме. Я люблю играть с мячиками, веревочками и другими игрушками. </p>
             <p>У меня острые когти, которые я использую для лазания по деревьям или мебели. Я очень чистоплотный и часто умываюсь. Я могу быть очень игривым и люблю играть с другими животными и людьми. Я очень привязан к своим хозяевам и слежу за ними по всему дому.</p>
         </article>
     </section>
     
-    
-    <h2>Мои Хобби</h2>
+    <form action="" id="block">
+    <h2 class="aboutme">Мои Хобби</h2>
         <ol>
             <li> Есть вкусняшки</li>
             <ul>
@@ -37,8 +39,10 @@
             <li> Петь песни ночью</li>
             <li> Охотиться на хозяев</li>
         </ol>
-        
-    <h2>Опыт охоты</h2>
+    </form>
+
+    <form action="" id="block">
+    <h2 class="aboutme">Опыт охоты</h2>
         <table>
         <thead>
             <tr>
@@ -59,7 +63,7 @@
                 <td>2</td>
             </tr>
             <tr>
-                <td>Коктельные трубочки</td>
+                <td>Коктейльные трубочки</td>
                 <td>Очень высокое</td>
                 <td>Более 100</td>
             </tr>
@@ -70,34 +74,37 @@
             </tr>
         </tbody>
         </table>
+    </form>
 
-    <h2>Связаться со мной</h2>
+    <form action="" id="block">
+    <h2 class="aboutme card">Связаться со мной</h2>
         <div class="contactMe">
 
-        <div class=""> 
+        <div class="Cone"> 
             <label for="">Ваше Имя: </label>
             <input type="text" name="" id="Pname" placeholder="Введите Ваше имя"> 
         </div>
 
-        <div class="">
+        <div class="Cone">
             <label for="">Ваш Email:</label>
             <input type="email" name="" id="email" placeholder="Сюда писать адрес почты">
         </div>
             
-        </div>
-            <div class=""> Ваше сообщение: 
-            <br>
-            <textarea name="" id="" cols="25" rows="5" placeholder="Оставьте ваше сообщение"></textarea>
+        <div class="Cone Cone2"> 
+            <label id="msg"> Ваше сообщение: </label>
+            <textarea id="textarea" cols="25" rows="5" placeholder="Оставьте ваше сообщение"></textarea>
         </div>
 
-        <div class="">
+        <div class="Cone">
             <button type="submit">Отправить</button>
         </div>
 
         </div>
+    </form>
+
      <hr>
      <footer>
-       <h5>Список полезных ссылок</h5>
+       <h5 class="aboutme">Список полезных ссылок</h5>
     <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D0%BD-%D0%BA%D1%83%D0%BD" target="_blank">My breed on Wiki </a>
     |
     <a href="https://grandorf.ru/" target="_blank">Food suply</a>

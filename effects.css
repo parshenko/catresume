@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif ;
+    background-color: #6c6f71;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+header {
+    font: normal 20px tahoma, sans-serif ;
+    background-color: #333133;
+    color: #bcb9bb;
+    letter-spacing: 2px;
+
+}
+
+.aboutme {
+    padding: 0px;
+    background: #c5b4b4;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#atext p {
+   padding-bottom: 5px;
+}
+
+#atext strong1 {
+   padding-left: 30px;
+}
+
+#block {
+    background: #d3cdcd  
+}
+
+.Cone {
+  padding-bottom: 10px;
+}
+
+.Cone2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Cone2 label {
+    margin-right: 10px;
+}
+
+#textarea::placeholder {
+    text-align: center;
+}
+
+.card{
+margin-bottom: 10px;
+}
